@@ -1,0 +1,10 @@
+main {
+    int a;
+    pointer intPtr;
+    
+    a = 10;
+    intPtr = &a;
+    *intPtr = 20;
+
+    print(a);  // 应输出20
+}

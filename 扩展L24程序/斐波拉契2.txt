@@ -1,0 +1,26 @@
+main {
+  var n,fib,a,b,i;
+    n=5;
+    fib=0;
+    scan(n);
+    if (n == 0) then {
+        fib = 0;
+    } end;
+    if (n == 1) then {
+        fib = 1;
+    } end;
+    if (n == 2) then {
+        fib = 1;
+    } else {
+        a = 1;
+        b = 1;
+        i = 3;
+        while (i <= n) {
+            fib = a + b;
+            a = b;
+            b = fib;
+            i = i + 1;
+        };
+    }end;
+    print(fib);
+}

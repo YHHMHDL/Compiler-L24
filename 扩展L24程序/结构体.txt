@@ -1,0 +1,12 @@
+main {
+    record john {
+        age;
+        height;
+    };
+
+    john.age = 25;
+    john.height = 180;
+
+    print(john.age);
+    print(john.height);
+}
